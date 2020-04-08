@@ -4,9 +4,9 @@
 #include <variant>
 #include <utility>
 #include "libusb.h"
-#include "device.hpp"
-#include "descriptor.hpp"
-#include "transfer.hpp"
+#include "usb/device.hpp"
+#include "usb/descriptor.hpp"
+#include "usb/transfer.hpp"
 #include "error.hpp"
 #include "bulk_in_pipe.hpp"
 
