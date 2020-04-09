@@ -8,7 +8,7 @@
 
 namespace osf
 {
-namespace usb
+namespace libusbcpp
 {
 
 class endpoint_address
@@ -404,5 +404,5 @@ interface_descriptor_range interface::get_interface_descriptors() const noexcept
         interface_descriptor_iterator{&(pdesc->altsetting[pdesc->num_altsetting])});
 }
 
-} // namespace usb
+} // namespace libusbcpp
 } // namespace osf

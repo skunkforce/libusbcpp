@@ -4,15 +4,15 @@
 #include <variant>
 #include <utility>
 #include "libusb.h"
-#include "usb/device.hpp"
-#include "usb/descriptor.hpp"
-#include "usb/transfer.hpp"
+#include "libusbcpp/device.hpp"
+#include "libusbcpp/descriptor.hpp"
+#include "libusbcpp/transfer.hpp"
 #include "error.hpp"
 #include "bulk_in_pipe.hpp"
 
 namespace osf
 {
-namespace usb
+namespace libusbcpp
 {
 class bulk_transfer;
 class context;
@@ -170,5 +170,5 @@ public:
         return libusb_submit_transfer(in.transfer);
     }
 };*/
-} // namespace usb
+} // namespace libusbcpp
 } // namespace osf

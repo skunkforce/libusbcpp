@@ -2,10 +2,10 @@
 
 namespace osf
 {
-namespace usb
+namespace libusbcpp
 {
 class bulk_in_pipe
 {
 };
-} // namespace usb
+} // namespace libusbcpp
 } // namespace osf

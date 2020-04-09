@@ -11,7 +11,7 @@
 
 namespace osf
 {
-namespace usb
+namespace libusbcpp
 {
 class context;
 class device;
@@ -181,5 +181,5 @@ sum_type<config_descriptor, error> device_handle::get_active_config_descriptor()
     return get_device().get_active_config_descriptor();
 }
 
-} // namespace usb
+} // namespace libusbcpp
 } // namespace osf

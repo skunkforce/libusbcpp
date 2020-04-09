@@ -6,7 +6,7 @@
 
 namespace osf
 {
-namespace usb
+namespace libusbcpp
 {
 class device_handle;
 class transfer
@@ -44,5 +44,5 @@ transfer device_handle::async_bulk_transfer(endpoint_address ep)
 {
     return transfer(dev, ep);
 }
-} // namespace usb
+} // namespace libusbcpp
 } // namespace osf
